@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Delivery - Ramana Pharmacy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .medicine-container {
+            display: flex;
+            gap: 10px;
+        }
+        .medicine-container input {
+            flex: 1;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8f0;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 700px;
+            margin: 20px auto;
+            padding: 30px;
+            border: 2px solid #03a03a;
+            border-radius: 8px;
+            background-color: white;
+        }
+        h2 {
+            text-align: center;
+            color: #03a03a;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 2px solid #ddd;
+        }
+        th {
+            background-color: #03a03a;
+            color: white;
+            font-size: 18px;
+        }
+        td {
+            background-color: #f4f9f4;
+        }
+        input[type="text"], input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 2px solid #03a03a;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .mrp-box {
+            background-color: #e0e0e0;
+            pointer-events: none;
+        }
+        button {
+            background-color: #03a03a;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #028a28;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Ramana Pharmacy - Medicine Order Form</h2>
+        <form action="#">
+            <table>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Strength (mg)</th>
+                    <th>MRP</th>
+                </tr>
+
+                <!-- Predefined 15 rows for customer input -->
+                <tr>
+                    <td><input type="text" name="medicine_name" placeholder="Enter Medicine Name" required></td>
+                    <td><input type="number" name="strength" placeholder="Enter Strength (mg)" min="1"></td>
+                    <td><input type="text" class="mrp-box" value="500" disabled></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="medicine_name" placeholder="Enter Medicine Name" required></td>
+                    <td><input type="number" name="strength" placeholder="Enter Strength (mg)" min="1"></td>
+                    <td><input type="text" class="mrp-box" value="500" disabled></td>
+                </tr>
+               <tr>
+                    <td><input type="text" name="medicine_name" placeholder="Enter Medicine Name" required></td>
+                    <td><input type="number" name="strength" placeholder="Enter Strength (mg)" min="1"></td>
+                    <td><input type="text" class="mrp-box" value="500" disabled></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="medicine_name" placeholder="Enter Medicine Name" required></td>
+                    <td><input type="number" name="strength" placeholder="Enter Strength (mg)" min="1"></td>
+                    <td><input type="text" class="mrp-box" value="500" disabled></td>
+                </tr>
+               <tr>
+                    <td><input type="text" name="medicine_name" placeholder="Enter Medicine Name" required></td>
+                    <td><input type="number" name="strength" placeholder="Enter Strength (mg)" min="1"></td>
+                    <td><input type="text" class="mrp-box" value="500" disabled></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="medicine_name" placeholder="Enter Medicine Name" required></td>
+                    <td><input type="number" name="strength" placeholder="Enter Strength (mg)" min="1"></td>
+                    <td><input type="text" class="mrp-box" value="500" disabled></td>
+                </tr>
+                <!-- Repeat above row 13 more times to make a total of 15 -->
+                <!-- This can be done either by copy-pasting or using a script for dynamic row generation -->
+
+            </table>
+           
+        </form>
+    </div>
+        
+        <div class="container">
+            <h2>Fill Your Adress Details</h2>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="text" placeholder="Address" required>
+                <input type="text" placeholder="City" required>
+                <input type="text" placeholder="Pincode" required>
+                <input class="sep" type="tel" placeholder="Mobile no" required> 
+                
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+        
+       
+   
+
+</body>
+</html>
+

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="about.html" href="about.html">
+    <link rel="contact.html" href="contact.html">
+    <link rel="service.html" href="service.html">
+
+    <style>
+        header {
+            background: #03a03a;
+            color: white;
+            padding: 15px 0;
+            font-family: Arial, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        .top{
+            text-align: center;
+        }
+
+        .button1{
+            display: inline-block;
+            padding: 10px 20px;
+            background: #03a03a;
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .services {
+            padding: 70px 30px;
+            text-align: center;
+        }
+        .doct{
+
+            background-color: #e0e0e0;
+            border: none;
+            text-decoration: none;
+        }
+        .service-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-right: 10px;
+        }
+        .service {
+            background: #e0e0e0;
+            padding: 20px;
+            width: 200px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        footer{
+
+            background-color: #03a03a;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 70px;
+            color: white;
+        }
+
+        body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    .text-content {
+        width: 60%;
+    }
+    .text-content h1 {
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    .text-content em {
+        font-size: 1.2em;
+        display: block;
+        margin-top: 10px;
+    }
+    .text-content p {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+    .image-container {
+        width: 35%;
+        text-align: right;
+    }
+    .image-container img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">Ramana Pharmacy</div>
+            <ul>
+                <li><a href="header.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br><br><br>
+
+    <section class="top">
+        <h1>Welcome To Ramana Pharmacy</h1>
+        <p>Your trusted medical partner</p> <br>
+       <a href="service.html" class="button1">Explore Services</a>
+    </section>
+    <br>
+
+    <section id="services" class="services">
+        <h1>Our Services</h1> <br>
+        <div class="service-container">
+            <div class="service">
+                <h3>24/7 Pharmacy</h3>
+                <p>Get your medicines anytime.</p>
+            </div>
+            <div class="service">
+              <h3>Online Consultation</h3> 
+                <p>Talk to our expert doctors online.</p>
+            </div>
+            <div class="service">
+                <h3>Home Delivery</h3>
+                <p>Order medicines and get them delivered at home.</p>
+            </div>
+        </div>
+    </section>
+
+<div class="container">
+    <div class="text-content">
+        <h1>Ramana Maharshi: The Sage of Arunachala</h1>
+        <em>"Your own Self-Realization is the greatest service you can render the world."</em>
+        <p>Ramana Maharshi's teachings have always been simple yet profound.</p>
+        <p>He lived a life of profound silence, radiating peace and wisdom, often showing that true knowledge 
+           comes not from words, but from experience. His behavior reflected a deep sense of humility, 
+           compassion, and a complete surrender to the divine. His presence alone had the power to calm 
+           and inspire anyone who came in contact with him, demonstrating that inner peace and 
+           self-realization are the true paths to understanding life.</p>
+        <p>Through his example, he showed that by quieting the mind and turning inward, one can experience 
+           the deepest truth and love.</p>
+    </div>
+    <div class="image-container">
+        <img src="ramana maharshi image.webp" alt="Ramana Maharshi">
+    </div>
+</div>
+
+<footer>
+    <p><b>&copy; 2025 Ramana Paharmacy. All Rights Reserved.</b></p> 
+ </footer>
+
+</body>
+</html>
